@@ -19,17 +19,10 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.15" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.15">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
     <PackageReference Include="NToastNotify" Version="8.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-	  <Folder Include="Areas\Administration\Controllers\" />
-	  <Folder Include="Areas\Administration\Data\" />
-	  <Folder Include="Areas\Administration\Models\" />
-	  <Folder Include="Areas\Administration\Views\" />
+	  <Folder Include="Extensions\" />
 	</ItemGroup>
 </Project>
