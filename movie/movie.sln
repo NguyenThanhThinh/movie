@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movie.data", "movie.data\mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movie.common", "movie.common\movie.common.csproj", "{7E520015-85F6-47A2-BD47-E75AE83DC327}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movie.services", "movie.services\movie.services.csproj", "{4822B279-C518-4402-A31B-707C64C95E5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movie.core", "movie.services\movie.core.csproj", "{4822B279-C518-4402-A31B-707C64C95E5C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movie.web", "movie.web\movie.web.csproj", "{C5A9BFFE-E310-4C2D-8C6B-485BBE7A4980}"
 EndProject
