@@ -11,6 +11,7 @@ namespace movie.web.Extensions
         {
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<ICountryService, CountryService>();
+            services.AddScoped<IGenreService, GenreService>();
             return services;
         }
 
