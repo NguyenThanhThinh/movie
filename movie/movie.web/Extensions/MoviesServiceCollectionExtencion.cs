@@ -1,4 +1,7 @@
 ﻿using AspNetCoreHero.ToastNotification;
+using movie.core.Contracts;
+using movie.core.Services;
+using movie.data.Repositories;
 
 namespace movie.web.Extensions
 {
@@ -6,7 +9,8 @@ namespace movie.web.Extensions
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services, IConfiguration configuration)
         {
-            
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped<ICountryService, CountryService>();
             return services;
         }
 
